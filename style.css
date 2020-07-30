@@ -1,3 +1,8 @@
 p{
-  color: red
+    color: red;
+}
+
+.contact-info {
+    text-align: center;
+    display: block;
 }
