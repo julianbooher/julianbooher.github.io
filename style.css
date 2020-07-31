@@ -2,7 +2,7 @@ body{
     margin-left:30%;
     margin-right:30%;
     font-family: Verdana, Geneva, sans-serif;
-    background-image: url('ricepaper_v3.png')
+    background-image: image('ricepaper_v3.png')
 }
 .title{
     text-align: center;
