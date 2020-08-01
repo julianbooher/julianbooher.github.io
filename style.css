@@ -2,6 +2,7 @@ body{
     margin-left:30%;
     margin-right:30%;
     font-family: Verdana, Geneva, sans-serif;
+    background-image: url('textured_paper.png') 
 }
 .title{
     text-align: center;
