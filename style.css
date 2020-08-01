@@ -2,14 +2,14 @@ body{
     margin-left:30%;
     margin-right:30%;
     font-family: Verdana, Geneva, sans-serif;
-    background-image: url('textured_paper.png') 
+    background-image: url('textured_paper.png')
 }
 .title{
     text-align: center;
 }
 .contact-info {
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid black;
     border-right: none;
     border-left: none;
 }
