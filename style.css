@@ -2,14 +2,15 @@ body{
     margin-left:25%;
     margin-right:25%;
     font-family: Verdana, Geneva, sans-serif;
-    background-image: url('textured_paper.png')
+    background-color: black;
+    color: white;
 }
 .title{
     text-align: center;
 }
 .contact-info {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid white;
     border-right: none;
     border-left: none;
 }
@@ -23,10 +24,13 @@ body{
     padding-top:3%;
 }
 .place-title{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
     padding-bottom: 10px;
-    color:dodgerblue;
+    color:skyblue;
 }
 .education{
+    padding-top: 10px;
+}
+.references{
     padding-top: 10px;
 }
