@@ -26,9 +26,8 @@
 
 .res-body{
     margin-top: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
-    max-width: 960px;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 .res-title{
@@ -40,7 +39,7 @@
 }
 .res-objective{
     margin-top: 20px;
-    text-align:center;
+    
 }
 .res-place-title{
     border-bottom: 1px solid black;
@@ -51,13 +50,16 @@
     margin-bottom: 1%;
     background-color: lightgray
 }
-.res-h2:hover{
-    background-color: dodgerblue;
-}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 768px) {
   .res-body {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .res-body {
+    margin-left: 30%;
+    margin-right: 30%;
   }
 }
