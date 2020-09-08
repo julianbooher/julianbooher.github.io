@@ -20,9 +20,20 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: dodgerblue;
 }
-
-
-/*------------RESUME STYLING SECTION--------------*/
+/*--------------HOME STYLING SECTION--------------*/
+.home-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
+.home-paragraph{
+    text-align: center;
+    margin-top: 4%;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*--------------RESUME STYLING SECTION--------------*/
 
 .res-body{
     margin-top: 30px;
@@ -53,13 +64,35 @@
 
 @media only screen and (min-width: 768px) {
   .res-body {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .res-body {
     margin-left: 30%;
     margin-right: 30%;
   }
+}
+
+/*--------------RESOURCES STYLING SECTION--------------*/
+
+.resource-body{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:center;
+    
+}
+
+/*--------------MEDIA STYLING SECTION--------------*/
+
+.media-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.media-videos{
+    text-align: center;
+    margin-top: 30px;
+}
+.media-button{
+    text-align: center;
+}
+iframe{
+    border: 2px black solid;
 }
