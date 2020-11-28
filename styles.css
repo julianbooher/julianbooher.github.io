@@ -1,3 +1,18 @@
+/*------------ RESPONSIVE TEXT ------------ */
+html { font-size: .6rem; }
+
+@media (min-width: 576px) {
+    html { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.25rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 1.5rem; }
+}
 /* Navbar container */
 .navbar {
   background-color: #333;
@@ -67,14 +82,32 @@ body{
   }
 }
 
-/*--------------RESOURCES STYLING SECTION--------------*/
+/*--------------PROJECTS STYLING SECTION--------------*/
 
-.resource-body{
-    margin-top: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align:center;
-    
+#project-title{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.project-title{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#project-div{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+
+}
+.project{
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    background-color: red;
+    display: inline-block;
+
 }
 
 /*--------------MEDIA STYLING SECTION--------------*/
