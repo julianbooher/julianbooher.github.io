@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+  p, body {
+    font-family: 'Raleway', sans-serif;
+}
 /*------------ RESPONSIVE TEXT ------------ */
 html { font-size: .6rem; }
 
@@ -24,6 +32,10 @@ html { font-size: .6rem; }
   float: left;
   font-size: 16px;
 }
+.navbar-brand{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 body{
     background-color: white;
@@ -36,8 +48,17 @@ body{
 /*--------------HOME STYLING SECTION--------------*/
 .home-title{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10%;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+}
+#home-header{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#home-description{
+    /* font-size: 12px; */
 }
 .home-paragraph{
     text-align: center;
@@ -88,26 +109,35 @@ body{
     text-align: center;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
+.row{
+    margin: auto;
+}
+
+.thumbnail{
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    background-color: rgb(233, 233, 233);
+}
+.caption{
+    text-align: center;
+    padding-bottom: .5em;
+}
+.caption p{
+    margin-bottom: 0;
+    border-top: 1px solid gray;
 }
 .project-title{
     width: 50%;
     margin: 0 auto;
     margin-top: 2em;
 }
-#project-div{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 3em;
-    text-align: center;
-
-}
-.project{
-    width: 400px;
-    height: 400px;
-    max-width: 100%;
-    background-color: red;
-    display: inline-block;
-
+.caption-logo{
+    width: 20%;
+    height: auto;
 }
 
 /*--------------MEDIA STYLING SECTION--------------*/
