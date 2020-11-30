@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 /*------------ RESPONSIVE TEXT ------------ */
-html { font-size: .6rem; }
+html { font-size: .7rem; }
 
 @media (min-width: 576px) {
     html { font-size: 1rem; }
@@ -22,9 +22,8 @@ html { font-size: .6rem; }
     html { font-size: 1.5rem; }
 }
 /* Navbar container */
-.navbar {
-  background-color: #333;
-  font-family: Arial;
+.header-top{
+    background-color: rgba(92, 49, 128, 0.863);
 }
 
 /* Links inside the navbar */
@@ -35,37 +34,87 @@ html { font-size: .6rem; }
 .navbar-brand{
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 40px;
+    color: white;
 }
 
 body{
     background-color: white;
 }
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    text-align: center;
+    color: white;
+}
 
+/* These hide an ugly box when the dropdown menu is in mobile. */
+.dropdown-divider{
+    display: none;
+}
+.dropdown-menu{
+    background-color: rgba(92, 49, 128, 0);
+    border: 0px solid transparent;
+
+}
+@media (min-width: 920px) {
+    .dropdown-menu{
+        background-color: rgb(43, 9, 63);
+    }
+}
+.dropdown-item{
+    color: white;
+}
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  background-color: rgba(161, 161, 161, 0.466);
+  color: white;
 }
 /*--------------HOME STYLING SECTION--------------*/
 .home-title{
     text-align: center;
-    border-bottom: 1px solid black;
-    padding-top: 30px;
+    padding-top: .5em;
+    margin-bottom: 0;
 }
 #home-header{
+    text-align: center;
+    background-color: rgba(128, 107, 179, 0.753);
+    color: rgba(230, 230, 230, 0.863);
+    margin-bottom: 4%;
+}
+#home-header-border{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    border-bottom: 2px solid rgba(92, 49, 128, 0.863);
 }
 #home-description{
-    /* font-size: 12px; */
+    margin-bottom: 0;
+    padding-bottom: 1em;
 }
 .home-paragraph{
     text-align: center;
-    margin-top: 4%;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2em;
+}
+.home-languages{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.home-languages-title{
+    margin-bottom: 6px;
+}
+.home-languages-border{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid rgba(128, 107, 179, 0.753)
+}
+.home-languages-languages{
+    font-size: 2rem;
 }
 /*--------------RESUME STYLING SECTION--------------*/
 
@@ -104,36 +153,52 @@ body{
 }
 
 /*--------------PROJECTS STYLING SECTION--------------*/
-
-#project-title{
+.projects-title{
     text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 1px solid black;
-    margin-bottom: 1em;
+    padding-top: .5em;
+    margin-bottom: .1em;
+}
+#projects-header{
+    text-align: center;
+    background-color: rgba(128, 107, 179, 0.753);
+    color: rgba(230, 230, 230, 0.863);
+    margin-bottom: 4%;
+}
+#projects-header-border{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid rgba(92, 49, 128, 0.863);
+    margin-bottom: .5em;
+}
+#projects-description{
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+.projects{
+    margin-top: 1em;
 }
 .row{
     margin: auto;
 }
 
 .thumbnail{
+    border-radius: 25px;
     margin-left: 1em;
     margin-right: 1em;
-    border: 1px solid gray;
+    border: 2px solid black;
     margin-bottom: 1em;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(230, 230, 230, 0.863);
+    overflow: hidden;
 }
 .caption{
     text-align: center;
     padding-bottom: .5em;
+    color: rgba(92, 49, 128, 0.863)
 }
 .caption p{
     margin-bottom: 0;
-    border-top: 1px solid gray;
-}
-.project-title{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 2em;
+    border-top: 2px solid black;
 }
 .caption-logo{
     width: 20%;
