@@ -93,16 +93,30 @@ body{
     margin-bottom: 0;
     padding-bottom: 1em;
 }
-.home-paragraph{
+.home-intro{
     text-align: center;
+}
+
+.home-photo{
+    border-radius: 25px;
+    border: 2px solid black;
+    max-width: 60%;
+    height: auto;
+}
+@media (min-width: 920px) {
+    .home-photo{
+        max-width: 25%;
+    }
+}
+.home-paragraph{
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 .home-languages{
     margin-bottom: 2em;
-    text-align: center;
 }
 .home-languages-title{
     margin-bottom: 6px;
