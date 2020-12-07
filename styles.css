@@ -142,8 +142,11 @@ body{
     text-align: center;
 }
 .res-contact-info{
-    padding-top: 20px;
+    padding-top: .5em;
     text-align: center;
+}
+.res-contact-info p{
+    margin-bottom: 0;
 }
 .res-objective{
     margin-top: 20px;
@@ -168,8 +171,8 @@ body{
 }
 @media only screen and (min-width: 768px) {
   .res-body {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
