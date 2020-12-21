@@ -148,14 +148,21 @@ body{
 .res-contact-info p{
     margin-bottom: 0;
 }
+
 .res-objective{
     margin-top: 20px;
     
 }
 .res-place-title{
-    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 1em;
 }
-.res-h2{
+.res-place-date{
+    border-bottom: 1px solid black;
+    padding-bottom: .5em;
+    text-align: center;
+}
+.res-h3{
     text-align:center;
     margin-top: 10%;
     margin-bottom: 1%;
@@ -171,8 +178,8 @@ body{
 }
 @media only screen and (min-width: 768px) {
   .res-body {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
