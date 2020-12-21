@@ -193,7 +193,7 @@ body{
     text-align: center;
     background-color: rgba(128, 107, 179, 0.753);
     color: rgba(240, 237, 237, 0.918);
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 #projects-header-border{
     width: 50%;
@@ -205,6 +205,14 @@ body{
 #projects-description{
     margin-bottom: 0;
     padding-bottom: 1em;
+}
+.projects-note{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    font-size: 50%;
 }
 .projects{
     margin-top: 1em;
