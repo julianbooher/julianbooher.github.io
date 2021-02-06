@@ -7,19 +7,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 /*------------ RESPONSIVE TEXT ------------ */
-html { font-size: .7rem; }
+html { font-size: .6rem; }
 
 @media (min-width: 576px) {
-    html { font-size: 1rem; }
+    html { font-size: .75rem; }
 }
 @media (min-width: 768px) {
-    html { font-size: 1.25rem; }
+    html { font-size: .75rem; }
 }
 @media (min-width: 992px) {
-    html { font-size: 1.5rem; }
+    html { font-size: 1rem; }
 }
 @media (min-width: 1200px) {
-    html { font-size: 1.5rem; }
+    html { font-size: 1rem; }
 }
 /* Navbar container */
 .header-top{
@@ -134,10 +134,15 @@ body{
 
 .res-body{
     margin-top: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
+@media only screen and (min-width: 768px) {
+    .res-body {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
 .res-title{
     text-align: center;
 }
@@ -153,9 +158,13 @@ body{
     margin-top: 20px;
     
 }
-.res-place-title{
+.res-place{
     text-align: center;
     margin-top: 1em;
+}
+.res-place-title{
+    text-align: center;
+    margin-top: .3em;
 }
 .res-place-date{
     border-bottom: 1px solid black;
@@ -164,7 +173,7 @@ body{
 }
 .res-h3{
     text-align:center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 1%;
     background-color: lightgray
 }
@@ -174,14 +183,11 @@ body{
 }
 #res-download-title{
     margin-bottom: 0;
+}
+.res-body ul{
+    padding-left: 23em;
+}
 
-}
-@media only screen and (min-width: 768px) {
-  .res-body {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
 
 /*--------------PROJECTS STYLING SECTION--------------*/
 .projects-title{
